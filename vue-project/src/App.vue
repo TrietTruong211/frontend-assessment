@@ -1,6 +1,7 @@
 <script setup>
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
+import Exercise2 from "./components/Exercise2.vue"
 </script>
 
 <template>
@@ -10,6 +11,7 @@ import Main from "./components/Main.vue";
 
   <main>
     <Main />
+    <Exercise2 />
   </main>
 </template>
 
