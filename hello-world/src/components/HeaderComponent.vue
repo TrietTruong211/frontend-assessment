@@ -25,6 +25,7 @@ export default {
   width: 100%;
   height: 650px;
   margin: auto;
+  max-height: calc(0.5 * 100vw);
 }
 
 .container__background {
@@ -38,7 +39,6 @@ export default {
   justify-content: center;
   align-items: center;
 }
-
 
 .container__inner {
   margin: auto;
@@ -59,24 +59,26 @@ export default {
   font-size: 2.2em;
   margin-top: -20px;
 }
-  @media screen and (max-width: 650px) {
-    .container {
-      height: 400px;
-    }
-    .container__background {
-      background: url(http://via.placeholder.com/600x600);
-      background-position: center;
-      background-size: contain;
-      background-repeat: no-repeat;
-    }
-  
-    .welcome-text {
-      font-size: 3em;
-    }
-  
-    .secondary-text {
-      font-size: 2em;
-      margin-top: 0;
-    }
+@media screen and (max-width: 850px) {
+  .container {
+    height: 400px;
+    max-height: none;
+    min-height: 100vw;
   }
+  .container__background {
+    background: url(http://via.placeholder.com/600x600);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .welcome-text {
+    font-size: 3em;
+  }
+
+  .secondary-text {
+    font-size: 2em;
+    margin-top: 0;
+  }
+}
 </style>

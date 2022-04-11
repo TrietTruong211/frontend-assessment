@@ -13,7 +13,7 @@ import MainItem from "./MainItem.vue";
 export default {
   name: "MainComponent",
   components: {
-    MainItem
+    MainItem,
   },
 };
 </script>
@@ -34,7 +34,7 @@ export default {
   padding: 0 10%;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .container__inner {
     flex-direction: column;
   }

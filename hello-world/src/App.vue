@@ -6,24 +6,26 @@
     <main>
       <MainComponent />
       <ExerciseTwo />
+      <BonusQuestions />
     </main>
   </div>
 </template>
 
 <script>
-import HeaderComponent from './components/HeaderComponent.vue'
-import MainComponent from './components/MainComponent.vue'
-import ExerciseTwo from './components/ExerciseTwo.vue'
-
+import HeaderComponent from "./components/HeaderComponent.vue";
+import MainComponent from "./components/MainComponent.vue";
+import ExerciseTwo from "./components/ExerciseTwo.vue";
+import BonusQuestions from "./components/BonusQuestions.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HeaderComponent,
     MainComponent,
-    ExerciseTwo
-  }
-}
+    ExerciseTwo,
+    BonusQuestions,
+  },
+};
 </script>
 
 <style>

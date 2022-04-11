@@ -36,7 +36,7 @@ export default {
   box-shadow: 0 0 5px rgba(236, 236, 236, 0.75);
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 850px) {
   .item__container {
     width: 100%;
     margin-bottom: 20px;
@@ -65,6 +65,10 @@ export default {
   justify-content: center;
   align-items: center;
   padding: 10px 0;
+}
+
+.item__text-container {
+  margin: 10px 0;
 }
 
 .item__button {
